@@ -163,7 +163,7 @@ class _MyAppState extends State<MyApp> {
                           Padding(
                             padding: EdgeInsets.all(10),
                           ),
-                          SizedBox(height: 32.0),
+                          SizedBox(height: 15.0),
                           GestureDetector(
                             onTap: () => _launchUrl1(),
                             child: CircleAvatar(
