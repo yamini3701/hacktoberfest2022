@@ -1,0 +1,196 @@
+<html>
+
+	<head>
+	<title>
+		INPUT FORM
+	</title>
+	<style>
+		
+		.header{
+			width: 51%;
+			display: flex;
+			background-color: #F8CBB6;
+			margin-left: auto; margin-right: auto;
+			justify-content: center;
+			border-radius: 10px 10px 10px 10px;
+		}
+		
+		.formdiv{
+			border: solid black 4px;
+			display: flex;
+			background-color: #DC9776;
+			width: 50%;
+			text-align: left;
+			border-radius: 10px 10px 10px 10px;
+			margin-left: auto; margin-right: auto;
+			justify-content: center;
+		}
+		
+	</style>
+	</head>
+	
+	<body style="background-color:#FFF0E9;">
+	<div class="header">
+	<ul style="list-style-type:none">
+		<li><h1 align="center">REGISTRATION FORM</h1></li>
+		<li><h4 align="center">Fill the form for registering yourself for our website.</h4></li>
+	</ul>
+	</div>
+	
+	<br>
+	
+	<form>
+	<div class = "formdiv">
+	<ul style="list-style-type:none">
+		<li>
+		<!-- TEXT TYPE -->
+		<label for="name">Full name:</label>
+		<input type="text" id="name" name="name">
+		</li>
+		
+		<br>
+		
+		<li>
+		<!-- Date -->
+		<label for="dob">Date of Birth:</label>
+		<input type="date" id="dob" name="birthday">
+		</li>
+		
+		<br>
+		
+		<li>
+		<!-- EMAIL -->
+		<label for="email">Enter your email ID:</label>
+		<input type="email" id="email" name="email">
+		</li>
+		
+		<br>
+		
+		<li>
+		<!-- NUMBER -->
+		<label for="phone">Phone Number: </label>
+		<input type="number" id="phone" name="phone" size="10">
+		</li>
+		
+		<br>
+		
+		<li>
+		<!-- RADIO BUTTON -->
+		<label for="gender">Gender: </label>
+		<input type="radio" id="male" name="gender" value="Male">
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="Female">
+		<label for="female">Female</label>
+		</li>
+		
+		<br>
+		
+		<li>
+		<label for="country">Country:</label>
+		<input list="country">
+		  <datalist id="country">
+			<option value="India">
+			<option value="USA">
+			<option value="China">
+			<option value="Japan">
+			<option value="Pakistan">
+		  </datalist>
+		</li>
+  
+		<br>
+		<li>
+		<!-- CHECK BOX -->
+		<label for="proglang">Select your favorite programming language:</label><br>
+		<input type="checkbox" id="proglang1" name="proglang1" value="C++">
+		<label for="proglang1"> C++</label><br>
+		<input type="checkbox" id="proglang2" name="proglang2" value="Java">
+		<label for="proglang2"> Java</label><br>
+		<input type="checkbox" id="proglang3" name="proglang3" value="Python">
+		<label for="proglang3"> Python</label>
+		</li>
+		
+		<br>
+		
+		<li>
+		<!-- COLOR -->
+		<label for="favcolor">Select your favorite color:</label>
+		<input type="color" id="favcolor" name="favcolor">
+		</li>
+		
+		<br>
+		
+		<li>
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username">
+		</li>
+		
+		<br>
+		
+		<li>
+		<!-- PASSWORD TYPE -->
+		<label for="pwd">Password:</label>
+		<input type="password" id="pwd" name="pwd">
+		</li>
+		
+		<br>
+		
+		<li>
+		<!-- FILE -->
+		<label for="myfile">Upload your resume:</label>
+		<input type="file" id="myfile" name="myfile">
+		</li>
+		
+		<br>
+		
+		<li>
+		<!-- MONTH -->
+		<label for="gradmonth">Select your graduating month and year: </label>
+		<input type="month" id="gradmonth" name="gradmonth">
+		</li>
+		
+		<br>
+		
+		<li>
+		<!-- RANGE -->
+		<label for="skills">Programming Skills (between 0 and 10):</label>
+		<input type="range" id="skills" name="skills" min="0" max="10">
+		</li>
+		
+		<br>
+		
+		<li>
+		<!-- TIME -->
+		<label for="favtime">Preffered Time for Coding:</label>
+		<input type="time" id="favtime" name="favtime">
+		</li>
+		
+		<br>
+		
+		<li>
+		<!-- URL -->
+		<label for="portfolio">Add your Portfolio:</label>
+		<input type="url" id="portfolio" name="portfolio">
+		</li>
+		
+		<br>
+		
+		<li>
+		<!-- TEXT AREA -->
+		<textarea name="aboutyou" rows="5" cols="60">
+Anything else you want us to know.
+		</textarea>
+		</li>
+		
+		<li align="center">
+		<!-- SUBMIT TYPE -->
+		<input type="submit" value="Submit">
+		
+		<!-- RESET TYPE -->
+		<input type="reset">
+		<br>
+		</li>
+	</ul>
+	</div>
+	</form>
+	</body>
+</html>
